@@ -21,7 +21,7 @@ This is a simplified Python wrapper for [GDSL](http://code.google.com/p/gdsl-too
         sudo make install
         sudo ldconfig
 
-#Installation
+# Installation
 
 Extract the source folder within the `gdsl-toolkit` repository folder.
 
@@ -31,7 +31,7 @@ it's much too fast to read).
 
 To install on the system globally, run `make install` or `python setup.py install` as root.
 
-#Potential Pitfalls
+# Potential Pitfalls
 
 1. If you manually compile and install a library on your system, the build system should run `ldconfig` automatically.
    If you find libraries you apparently installed coming up missing, that's a good clue.
@@ -47,7 +47,7 @@ To install on the system globally, run `make install` or `python setup.py instal
 4. The maximum error message size is defined in `pygdsl_error.h`. If you require a longer buffer to hold your
    error messages, you'll have to change that file and reinstall because the buffer is a static char array.
 
-#Usage
+# Usage
 
 If you are not installing system-wide, you must set the Python path appropriately. Example:
 
@@ -112,6 +112,6 @@ this output:
     Successfully generated exception:
     Exception message: decode failed: UnsatisfiableGuardCombination
 
-#Authorship Attribution
+# Authorship Attribution
 
 Pygdsl has been developed by Jessie Castille.
